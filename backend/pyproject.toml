@@ -1,0 +1,29 @@
+[project]
+name = "blog-gen7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bs4>=0.0.2",
+    "django>=5.2.11",
+    "django-celery-results>=2.6.0",
+    "django-cors-headers>=4.9.0",
+    "django-redis>=6.0.0",
+    "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "fastapi>=0.128.1",
+    "fastmcp[opascal]>=2.14.5",
+    "google-generativeai>=0.8.6",
+    "langchain>=1.2.8",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.0",
+    "langchain-groq>=1.1.2",
+    "langchain-mcp-adapters>=0.2.1",
+    "langgraph>=1.0.7",
+    "lxml-html-clean>=0.4.3",
+    "newspaper3k>=0.2.8",
+    "python-dotenv>=1.2.1",
+    "timedelta>=2020.12.3",
+    "youtube-transcript-api>=1.2.4",
+]
